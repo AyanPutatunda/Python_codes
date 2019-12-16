@@ -24,6 +24,8 @@ BucketName = "ayanstestbucket"
 foldername = "active"  # provide the foldername of the file without / (sla)
 filename = "testfile.xlsx"  # provide the file name within the s3 folder
 outPutName = "/Users/ayan.putatunda/Desktop/Aws/testfile_active.xlsx"
+
+TODO : make the config read from file
 '''
 
 def download_file_from_s3(BucketName,foldername,filename,outPutName):
